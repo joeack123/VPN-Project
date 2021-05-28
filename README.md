@@ -1,12 +1,12 @@
-This is my final project for CS 268.
+This is my final project for a web development class.
 
-This won't run on xampp and the database is live so the db config file would 
-have to be altered for the php files to be able to connect to a database.
+- - - - 
 
-This projct uses the stripe and google captcha API which each have their own keys so the
-pricing, login and verify pages won't work either so I just submitted the files to 
-review the html and php syntax and readbility.
+This project essentially mimics what you would typically see on the website of a VPN service provider.
 
-the bash scripts that do the vpn configuration when a users verifies there account are also included
-within this zip file and rely on Easy RSA and inotify to manage user creation where php an the
-database manage all the account creation.
+- - - - 
+
+This project is built with PHP and HTML backed by the Bootstrap library.
+The VPN was built with OpenVPN running on a Debian linux server hosted on DigitalOcean.
+I used the Stripe payment API along with Google's reCAPTCHA API.
+The web server was Apache with a MySQL database.
