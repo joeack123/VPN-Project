@@ -1,0 +1,24 @@
+body, html {
+  height: 100%;
+}
+
+div {
+	display: block;
+}
+
+.bg {
+	background-image: url("images/back.jpg");
+	height: 85%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.info {
+	background-color: #616366;
+	height: 20%;
+}
+
+p {
+	font-size: 18px;
+}
